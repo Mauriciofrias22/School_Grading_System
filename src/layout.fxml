@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="91.0" layoutY="14.0" text="Sistema Estadistico">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeroRegistrosText" layoutX="14.0" layoutY="66.0" prefHeight="25.0" prefWidth="95.0" />
+      <Button fx:id="calcularButton" layoutX="116.0" layoutY="66.0" mnemonicParsing="false" onAction="#calcular" prefHeight="25.0" prefWidth="95.0" text="CALCULAR" />
+      <TextArea fx:id="entradaTextArea" layoutX="14.0" layoutY="109.0" prefHeight="192.0" prefWidth="200.0" />
+      <TextArea fx:id="salidaTextArea" editable="false" layoutX="219.0" layoutY="110.0" prefHeight="104.0" prefWidth="131.0" />
+   </children>
+</Pane>
